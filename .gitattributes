@@ -1,0 +1,3 @@
+# iCalendar 必须是 CRLF 行尾（RFC 5545 §3.1）
+# core.autocrlf=true 会在提交时把 CRLF 转成 LF，导致 GitHub/CDN 上的文件不合规
+*.ics -text
